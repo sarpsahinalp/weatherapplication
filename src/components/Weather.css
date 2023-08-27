@@ -1,0 +1,28 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    background-color: aliceblue;
+    box-shadow: none;
+    border: 1px solid black
+}
+
+@keyframes buttonAnimation {
+    from {transform: rotate(0);}
+    to {transform: rotate(-45deg);}
+}
+
+button:hover {
+    background-color: blueviolet;
+    animation-name: buttonAnimation;
+    animation-duration: 10s;
+}
+
+.currentDegree {
+    background-color: blue;
+}
+
+.currentWeather {
+    background-color: brown;
+}
